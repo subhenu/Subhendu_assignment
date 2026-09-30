@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="invoice">
+
+        <!-- Company Header -->
+        <div class="company-header">
+            <h1>Zylker Electronics Hub</h1>
+
+            <p>
+                Northern Street,<br>
+                Greater South Avenue,<br>
+                New York,<br>
+                New York 10001, U.S.A.
+            </p>
+        </div>
+
+        <!-- Invoice Details -->
+        <div class="invoice-details">
+
+            <div class="details-left">
+                <table>
+                    <tr>
+                        <th>Invoice</th>
+                        <td>IND-00128</td>
+                    </tr>
+
+                    <tr>
+                        <th>Invoice Date</th>
+                        <td>5th August , 2006</td>
+                    </tr>
+
+                    <tr>
+                        <th>Terms</th>
+                        <td>Due on Receipt</td>
+                    </tr>
+
+                    <tr>
+                        <th>Due Date</th>
+                        <td>19.01.2005</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+        <!-- Bill To / Ship To -->
+        <div class="address-section">
+
+            <div class="address-title">
+                Bill To
+            </div>
+
+            <div class="address-title">
+                Ship To
+            </div>
+
+            <div class="address">
+                <strong>Ms. Mary D. Dunton</strong><br>
+                1324 Hinkle Lake Road<br>
+                Needham<br>
+                02192 Maine
+            </div>
+
+            <div class="address address-right">
+                1324 Hinkle Lake Road<br>
+                Needham<br>
+                02192 Maine
+            </div>
+
+        </div>
+
+        <!-- Items Table -->
+        <table class="items-table">
+
+            <thead>
+                <tr>
+                    <th class="number">#</th>
+                    <th>Item Description</th>
+                    <th class="qty">Qty</th>
+                    <th class="rate">Rate</th>
+                    <th class="amount">Amount</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td class="center">1.</td>
+
+                    <td>
+                        <strong>Camera</strong><br>
+                        DSLR Camera with Advance Shooting<br>
+                        Capabilities
+                    </td>
+
+                    <td class="center">1.00</td>
+                    <td class="center">$899.00</td>
+                    <td class="center">899.00</td>
+                </tr>
+
+                <tr>
+                    <td class="center">2.</td>
+
+                    <td>
+                        <strong>Fitness Tracker</strong><br>
+                        Activity tracker with heart rate monitoring<br>
+                        Capabilities
+                    </td>
+
+                    <td class="center">1.00</td>
+                    <td class="center">$129.00</td>
+                    <td class="center">$129.00</td>
+                </tr>
+
+                <tr>
+                    <td class="center">3.</td>
+
+                    <td>
+                        <strong>Laptop</strong><br>
+                        Lightweight laptop with a powerful processor<br>
+                        Capabilities
+                    </td>
+
+                    <td class="center">1.00</td>
+                    <td class="center">$1,199.00</td>
+                    <td class="center">$1,199.00</td>
+                </tr>
+
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="4" class="subtotal">
+                        <strong>SubTotal</strong>
+                    </td>
+
+                    <td class="total">
+                        <strong>$2,227.00</strong>
+                    </td>
+                </tr>
+            </tfoot>
+
+        </table>
+
+        <!-- Footer -->
+        <div class="invoice-footer">
+            <h2>INVOICE</h2>
+        </div>
+
+    </div>
+
+</body>
+</html>

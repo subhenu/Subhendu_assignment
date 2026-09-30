@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111;
+}
+
+.invoice {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    border: 3px solid #111;
+}
+
+/* Company Header */
+
+.company-header {
+    height: 190px;
+    padding: 30px 25px;
+    border-bottom: 3px solid #111;
+}
+
+.company-header h1 {
+    margin: 0 0 12px;
+    font-size: 30px;
+}
+
+.company-header p {
+    line-height: 1.55;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+/* Invoice Details */
+
+.invoice-details {
+    height: 145px;
+    border-bottom: 3px solid #111;
+}
+
+.details-left {
+    width: 50%;
+    height: 100%;
+    padding: 20px 40px;
+    border-right: 3px solid #111;
+}
+
+.details-left table {
+    border-collapse: collapse;
+}
+
+.details-left th {
+    text-align: left;
+    padding-right: 80px;
+    line-height: 1.6;
+}
+
+.details-left td {
+    white-space: nowrap;
+}
+
+/* Bill To / Ship To */
+
+.address-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.address-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    /* border-bottom: 3px solid #111; */
+}
+
+.address-title:first-child {
+    border-right: 3px solid #111;
+}
+
+.address {
+    min-height: 150px;
+    padding: 30px;
+    line-height: 1.45;
+    color: #777;
+    /* border-bottom: 3px solid #111; */
+    border:3px solid #111;
+    border-left:2px solid transparent;
+}
+.address-right{
+    border-right:2px solid transparent;
+}
+
+/* .address:first-of-type {
+    border-right: 3px solid #111;
+} */
+
+.address strong {
+    color: #111;
+    font-size: 20px;
+}
+
+/* Items Table */
+
+.items-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.items-table th,
+.items-table td {
+    border-right: 3px solid #111;
+    border-bottom: 3px solid #111;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.items-table th:last-child,
+.items-table td:last-child {
+    border-right: none;
+}
+
+.items-table th {
+    font-weight: normal;
+    height: 45px;
+}
+
+.items-table td {
+    height: 95px;
+    vertical-align: middle;
+}
+
+.items-table strong {
+    font-size: 18px;
+}
+
+.number {
+    width: 7%;
+}
+
+.qty {
+    width: 12%;
+}
+
+.rate {
+    width: 13%;
+}
+
+.amount {
+    width: 13%;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Subtotal */
+
+.subtotal {
+    text-align: center;
+    height: 55px;
+}
+
+.total {
+    text-align: center;
+    font-size: 19px;
+}
+
+/* Footer */
+
+.invoice-footer {
+    height: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.invoice-footer h2 {
+    font-size: 55px;
+    margin: 0;
+}
